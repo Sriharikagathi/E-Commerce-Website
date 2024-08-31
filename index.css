@@ -1,0 +1,121 @@
+@import url('https://fonts.cdnfonts.com/css/samsung-sharp-sans');
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+.logo img{
+    margin-left: 15px;
+    height: 50px;
+    width: 50px;
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.nav-links a{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Samsung Sharp Sans', sans-serif;
+
+}
+
+.body{
+    font-family: 'Samsung Sharp Sans', sans-serif;
+}
+.nav-logos img{
+    height: 50px;
+    width: 50px;
+    filter: invert(100%);
+}
+
+.search input{
+    width: 400px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.search{
+    display: flex;
+}
+
+.search button{
+    background-color: grey;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+.search button:hover{
+    background-color: darkgray;
+}
+
+
+.nav-links a:hover{
+    text-decoration: underline;
+}
+
+.nav-logos img{
+    width: 50px;
+    margin: 50px;
+}
+
+.nav-logos img:hover{
+    border: 3px solid;
+}
+
+.image img{
+    height: 500px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.image{
+    margin: 5px;
+    padding-top: 95px;
+}
+.image h1{
+    text-align: center;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    /* padding: 80px; */
+    justify-content: space-around;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+.card{
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.product-info {
+    background-color: grey;
+    padding: 20px;
+    flex-grow: 1;
+}
+.product-info h2{
+    font-weight: 500;
+}
+
+.card:hover{
+
+}
